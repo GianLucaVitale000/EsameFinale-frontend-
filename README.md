@@ -1,3 +1,7 @@
+Il frontend presenta una tabella popolata con una serie di prodotti elettrici. Le colonne specificano alcune caratteristiche dei prodotti.
+
+Nel backend, oltre alle chiamate CRUD relative al frontend, il database presenta due tabelle: una per i prodotti e una per le marche degli stessi.
+
 # EsameFinale
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
