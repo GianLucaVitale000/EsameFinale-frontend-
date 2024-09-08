@@ -1,0 +1,18 @@
+
+.card {
+    /*border: solid 2px red;*/
+    background-color: antiquewhite;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p-table {
+    /*border: solid 2px blue;*/
+    background-color: whitesmoke;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    box-shadow: 0 2px 4px rgba(41, 37, 37, 0.2);
+}

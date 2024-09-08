@@ -1,0 +1,23 @@
+<div class="card">
+    <p-table [value]="backendProdotti" styleClass="p-datatable-gridlines"
+    [scrollable]="true" scrollHeight="42vh"
+    [tableStyle]="{ 'min-width': '50rem' }">
+    
+        <ng-template pTemplate="header">
+            <tr>
+                <th>Nome</th>
+                <th>Descrizione</th>
+                <th>Prezzo</th>
+                <th>Marca</th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-product>
+            <tr>
+                <td style="width:25%">{{ product.nome }}</td>
+                <td>{{ product.descrizione }}</td>
+                <td>{{ product.prezzo | currency:'EUR':'symbol':'1.2-2' }}</td>
+                <td>{{ product.marca }}</td>
+            </tr>
+        </ng-template>
+    </p-table>
+</div>
